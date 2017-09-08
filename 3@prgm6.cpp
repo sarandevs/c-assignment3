@@ -7,7 +7,7 @@ int main(){
 	cin>>y;
 	if((y%4==0)&&(y%100!=0))
 	{
-		cout<<"its not year";
+		cout<<"its leap year";
 	}
             else if(y%100==0)
             {
