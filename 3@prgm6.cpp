@@ -9,13 +9,13 @@ int main(){
 	{
 		cout<<"its leap year";
 	}
-            else if(y%100==0)
-            {
-               	cout<<"its leap not year";
-            }
             else if(y%400==0)
             {
-            	cout<<"its leap year";
+               	cout<<"its leap year";
+            }
+            else if(y%100==0)
+            {
+            	cout<<"its leap not year";
             }
             else
             {
